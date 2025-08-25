@@ -81,7 +81,7 @@ const Rooms = () => {
 
   const bookRoom = (roomType) => {
     // Set room type in booking modal
-    const modal = document.getElementById("bookingModal");
+    // const modal = document.getElementById("bookingModal");
     const roomSelect = modal.querySelector('select[name="roomType"]');
     if (roomSelect) {
       roomSelect.value = roomType;

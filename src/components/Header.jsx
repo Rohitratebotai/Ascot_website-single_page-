@@ -33,9 +33,9 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
-  const openBookingModal = () => {
-    document.getElementById("bookingModal").classList.add("active");
-  };
+  // const openBookingModal = () => {
+  //   document.getElementById("bookingModal").classList.add("active");
+  // };
 
   return (
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
@@ -116,7 +116,7 @@ const Header = () => {
               <FontAwesomeIcon icon={faPhone} />
               <span>Call Now</span>
             </a>
-            <button className="btn-book" onClick={openBookingModal}>
+            <button className="btn-book">
               <FontAwesomeIcon icon={faCalendarCheck} />
               Book Now
             </button>

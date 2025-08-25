@@ -60,9 +60,9 @@ const Hero = () => {
     setCurrentSlide(index);
   };
 
-  const openBookingModal = () => {
-    document.getElementById("bookingModal").classList.add("active");
-  };
+  // const openBookingModal = () => {
+  //   document.getElementById("bookingModal").classList.add("active");
+  // };
 
   const scrollToAbout = () => {
     document.getElementById("about").scrollIntoView({ behavior: "smooth" });
@@ -111,7 +111,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            <button className="btn-primary" onClick={openBookingModal}>
+            <button className="btn-primary" >
               <FontAwesomeIcon icon={faCalendarCheck} />
               Reserve Your Stay
             </button>
