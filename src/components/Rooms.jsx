@@ -14,7 +14,7 @@ import "./Rooms.css";
 import suitroom from '../assets/room_types/Suit_rooms/r1.jpg'
 import premium from '../assets/room_types/premium_Room/r1.jpg'
 import deluxe from '../assets/room_types/deluxe_room/r1.jpg'
-
+import premiumtwin from '../assets/room_types/twin_dbl_room/r1.jpg'
 const Rooms = () => {
   const rooms = [
     {
@@ -54,6 +54,21 @@ const Rooms = () => {
       image: deluxe,
       description:
         "Comfortable accommodation with all essential amenities for a pleasant stay.",
+      badge: null,
+      amenities: [
+        { icon: faSnowflake, label: "AC" },
+        { icon: faWifi, label: "Wi-Fi" },
+        { icon: faTv, label: "TV" },
+        { icon: faBath, label: "Private Bath" },
+      ],
+    },
+    {
+      id: "premium",
+      title: "Premium Twin Bed",
+      price: "₹6,000",
+      image: premiumtwin,
+      description:
+        "Modern accommodation designed with comfort and convenience in mind.",
       badge: null,
       amenities: [
         { icon: faSnowflake, label: "AC" },
