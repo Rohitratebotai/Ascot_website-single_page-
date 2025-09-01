@@ -129,7 +129,7 @@ const Hero = () => {
           >
             <div className="feature-item">
               <FontAwesomeIcon icon={faStar} />
-              <span>5-Star Luxury</span>
+              <span>4-Star Luxury</span>
             </div>
             <div className="feature-item">
               <FontAwesomeIcon icon={faMapMarkerAlt} />
