@@ -116,10 +116,17 @@ const Header = () => {
               <FontAwesomeIcon icon={faPhone} />
               <span>Call Now</span>
             </a>
-            <button className="btn-book">
-              <FontAwesomeIcon icon={faCalendarCheck} />
-              Book Now
-            </button>
+            <a
+              href="https://booking.ascothotels.co.in/hotel/hotel-details?hotel_id=11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn-book">
+                <FontAwesomeIcon icon={faCalendarCheck} />
+                Book Now
+              </button>
+            </a>
+
           </div>
 
           <div
